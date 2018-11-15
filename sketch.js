@@ -5,7 +5,7 @@ function setup(){
   background(0);
 }
 
-function draw(）{
+function draw(){
   let xx = random(width);
   let yy = random(height);
   let rr = random(10, 50);
