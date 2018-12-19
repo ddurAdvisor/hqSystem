@@ -9,7 +9,7 @@ function draw(){
   let xx = random(width);
   let yy = random(height);
   let rr = random(10, 50);
-  fill(random(255), random(255), random(255));
+  fill(random(255), random(255), random(255), 50);
   noStroke();
   ellipse(xx, yy, rr, rr);
 }
